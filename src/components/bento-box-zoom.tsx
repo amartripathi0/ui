@@ -31,13 +31,13 @@ export default function BentoBoxZoom({
         "h-[300vh] relative",
         zoomSpeed === "sm" && "h-[400vh]",
         zoomSpeed === "default" && "h-[300vh]",
-        zoomSpeed === "lg" && "h-[200vh]",
+        zoomSpeed === "lg" && "h-[200vh]"
       )}
     >
       <div
         className={cn(
           "h-screen sticky top-0 bg-neutral-900 overflow-hidden",
-          backgroundColor,
+          backgroundColor
         )}
       >
         <motion.div
@@ -54,7 +54,7 @@ export default function BentoBoxZoom({
                   "relative row-span-2 col-span-4 opacity-80 hover:opacity-95 transition duration-200",
                   index === 0 && "row-span-4",
                   index === 4 && "row-span-4",
-                  index === 5 && "col-span-8",
+                  index === 5 && "col-span-8"
                 )}
               >
                 <Image

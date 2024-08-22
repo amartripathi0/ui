@@ -29,6 +29,7 @@ const imagesArray: ImageType[] = [
     alt: "Unsplash Image 2",
   },
 ];
+
 export default function Home() {
   return (
     <main className="bg-neutral-400">
